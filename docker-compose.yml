@@ -19,7 +19,7 @@ services:
         container_name: helloworld-nginx
         build: ./nginx
         ports:
-            - 80:80
+            - 8080:80
         volumes:
             - build-react:/var/www/html
         depends_on:
